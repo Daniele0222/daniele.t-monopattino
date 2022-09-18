@@ -1,0 +1,69 @@
+body{
+  background-image:url(pics/uomini.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+/* quadrato nero */
+.block{
+  background: rgba(0, 0, 0, 0.5);
+  width: 900px;
+  height: 680px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px black;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 70px;
+}
+.block h1{
+  font-family: 'Poppins', sans-serif;
+  color: lime;
+  font-size: 23px;
+}
+nav{
+  background-color: lime;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* testo monopattini */
+main{
+  text-align: left;
+}
+main h4{
+
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  line-height: 5px
+}
+main p{
+  font-family: 'Comfortaa', cursive;
+}
+.inline{
+  display: inline-block;
+}
+.arrow::before{
+  content:  ' \21A0'
+}
+/* livello batterie */
+#carico{
+  border-radius: 20px;
+  background-color: lime;
+  width: 500px;
+}
+
+#scarico{
+  border-radius: 20px;
+  background-color: red;
+  width: 150px;
+}
+
+#medio{
+  background-color: yellow;
+  width: 250px;
+  border-radius: 20px;
+}
